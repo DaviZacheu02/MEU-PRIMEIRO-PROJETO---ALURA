@@ -1,0 +1,78 @@
+/* Estilo geral */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(180deg, #1c1c1c, #282828);
+    color: #fff;
+}
+
+/* Cabeçalho */
+header {
+    text-align: center;
+    background: #a89797;
+    padding: 20px 0;
+    color: #fff;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 32px;
+    border-bottom: 5px solid #ffffff;
+}
+
+/* Seção principal */
+.chamada {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: #333;
+    color: #fffefd;
+    padding: 50px 20px;
+    border-bottom: 5px solid #ffffff;
+}
+
+.chamada h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.chamada p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Categoria de vídeos */
+.categoria {
+    padding: 20px;
+    text-align: center;
+    background: #282828;
+}
+
+.categoria h2 {
+    color: #e9c2c2;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.categoria-videos {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.categoria-videos a {
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.categoria-videos img {
+    height: 150px;
+    border-radius: 10px;
+    filter: grayscale(50%);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.categoria-videos img:hover {
+    filter: grayscale(0%);
+    transform: scale(1.1);
+    box-shadow: 0 6px 15px rgba(190, 168, 168, 0.8);
+}
